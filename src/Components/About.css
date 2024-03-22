@@ -1,0 +1,21 @@
+/* .about-section{
+  background-color: rgb(237, 240, 241);
+} */
+  
+  .about-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    /* background-color: rgb(174, 168, 160); */
+  }
+
+  
+  
+  .avatar {
+    width: 150px; /* Adjust the width of the avatar as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the avatar circular */
+    /* margin-bottom: 10px;  */
+  }
+  
+  
