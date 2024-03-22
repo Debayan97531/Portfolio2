@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #d6d6d6;
+    margin-bottom: 30px;
+  }
+  
+  .left-icons a {
+    margin-right: 40px; /* Increased spacing between icons */
+    color: #333;
+    font-size: 38px; /* Larger icon size */
+  }
+
+  .left-icons a:first-child {
+    margin-left: 40px; /* Additional spacing to the right of the first icon (email) */
+  }
+  
+  .right-links a {
+    margin-left: 25px; /* Increased spacing between links */
+    margin-right: 25px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px; 
+  }
+  
+  .right-links a:hover {
+    color: #007bff;
+  }
+
+
+
+  .about-btn {
+    font-size: 30px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  
+  .about-btn:hover {
+    color: #007bff;
+  }
+
+  .projects-btn {
+    font-size: 30px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  
+  .projects-btn:hover{
+    color: #007bff;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .left-icons {
+      margin-bottom: 10px; /* Add margin between icon section and links section */
+    }
+  
+    .right-links {
+      margin-top: 10px; /* Add margin between links section and about section */
+    }
+  }
